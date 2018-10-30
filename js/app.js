@@ -22,14 +22,12 @@ function findWeatherDetails() {
    httpRequestAsync(searchLink, response);
   }
  }
-
 function response(response) {
   let jsonObject = JSON.parse(response);
   cityName.innerHTML = jsonObject.name;
   icon.src = "http://openweathermap.org/img/w/" + jsonObject.weather[0].icon + ".png";
   temperature.innerHTML = parseInt(jsonObject.main.temp - 273) + "°";
 }
-
 function httpRequestAsync(url, callback)
 {
   console.log("hello");
