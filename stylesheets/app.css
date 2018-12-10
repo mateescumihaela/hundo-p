@@ -48,11 +48,11 @@ border-left: 15px solid white;
 .column1{
    float: left;
     width: 33.33%;
-    padding: 120px;
+    padding: 80px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
-    color: white;
+    color: #757575;
     border:  15px solid white;
     border-radius: 25px;
 }
@@ -60,11 +60,11 @@ border-left: 15px solid white;
 .column2{
     float: left;
     width: 33.33%;
-    padding: 120px;
+    padding: 10px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
-    color: white;
+    color: #757575;
     border:  15px solid white;
     border-radius: 25px;
 }
@@ -101,3 +101,8 @@ border-left: 15px solid white;
     font-size: 35px;
     cursor: pointer;
 }
+
+  iframe {
+        height: 100%;
+        width:95%;
+    }
